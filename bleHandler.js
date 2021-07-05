@@ -72,7 +72,7 @@ class BleHandler
         this.syncingEvents = syncingEventsInterface;
         this.guiInterface = guiInterface;
         this.discoveredSensorCounter = 0;
-        this.central = require('noble-mac');
+        this.central = require('@abandonware/noble');
         this.setBleEventHandlers(this);
 
         this.isSyncingEnabled = true;
