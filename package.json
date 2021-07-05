@@ -3,12 +3,12 @@
     "version": "1.0.0",
     "description": "Xsens DOT Server",
     "dependencies": {
-        "@abandonware/noble": "^1.9.2-8",
+        "@abandonware/noble": "^1.9.2-14",
         "express": "^4.17.1",
+        "hashmap": "^2.4.0",
         "ip": "^1.1.5",
         "quaternion": "^1.1.0",
-        "socket.io": "^2.3.0",
-        "hashmap": "^2.4.0"
+        "socket.io": "^2.4.1"
     },
     "scripts": {
         "start": "node xsensDotServer.js"
